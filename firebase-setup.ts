@@ -4,14 +4,13 @@ import { getMessaging, getToken } from "firebase/messaging";
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyCF9pVJat-dgLqp_2b-lJ0BwnuJfLZTHSU",
-    authDomain: "fcm-angular-3dba9.firebaseapp.com",
-    projectId: "fcm-angular-3dba9",
-    storageBucket: "fcm-angular-3dba9.firebasestorage.app",
-    messagingSenderId: "466048844883",
-    appId: "1:466048844883:web:294b39d7a547cd8308f2a6",
-    measurementId: "G-6G362NS9DT"
-  };
+  apiKey: "AIzaSyCbitWscKqUdRWe9tlo1lO3C2kpB128Hew",
+  authDomain: "goair-fcm.firebaseapp.com",
+  projectId: "goair-fcm",
+  storageBucket: "goair-fcm.firebasestorage.app",
+  messagingSenderId: "485424992997",
+  appId: "1:485424992997:web:4a5a74b1b941a2ea093a0c"
+};
 
   const app = initializeApp(firebaseConfig)
   const messaging = getMessaging(app)
